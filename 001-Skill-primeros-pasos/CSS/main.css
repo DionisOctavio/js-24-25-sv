@@ -1,0 +1,28 @@
+.login {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.login input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login #txtemail {
+    background-color: aliceblue;
+}
+
+.login #txtpassword {
+    background-color: rgb(240, 255, 250);
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='SS/main.css'>
+    <script src='JS/main.js'></script>
+    <Script>
+        function saludar(){
+
+            let txtemail = document.getElementById("txtemail").value;
+            let txtpassword = document.getElementById("txtpassword").value;
+
+            if (txtlogin=== ""){
+                alert("Has dejado la casilla en blanco");
+                if (txtpassword=== ""){
+                
+                }else{
+                    alert("Email vacio, password relleno");
+                }
+            }else{
+                if (txtpassword=== ""){
+                    alert("Email relleno, Password vacio");
+                }else{
+                    alert("Login Corecto, Email y password relleno");
+                }
+            }
+
+            
+        }
+    </Script>
+</head>
+<body>
+    <h1></h1>
+    <h4>Login COCO.COM</h4>
+    <div class="login">
+        <p>Email</p>
+        <input type="text" id="txtemail"/>
+        <p>Password</p>
+        <input type="text" id="txtpassword"/>
+        <input type="button" value="login" onclick="saludar();"/>
+    </div>
+</body>
+</html>
