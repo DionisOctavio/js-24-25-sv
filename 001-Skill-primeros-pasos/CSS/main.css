@@ -1,3 +1,9 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
 .login {
     width: 400px;
     margin: 0 auto;
@@ -7,16 +13,16 @@
     justify-content: center;
     flex-direction: column;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 20px;
     background-color: #f9f9f9;
 }
 
 .login input {
-    width: 100%;
-    padding: 10px;
+    width: 80%;
+    padding: 8px;
     margin: 5px 0;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 50px;
 }
 
 .login #txtemail {
@@ -25,4 +31,12 @@
 
 .login #txtpassword {
     background-color: rgb(240, 255, 250);
+}
+
+.login #enviar {
+    margin-top: 20px;
+    border-radius: 50px solid black;
+    width: 200px;
+    background-color: black;
+    color: rgb(255, 255, 255);
 }
