@@ -1,0 +1,39 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    display: flex;
+    background-color: #c6e1dc;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #c6e1dc;
+    border-radius: 20px;
+    font-size: 16px;
+    width: 100px;
+    transition: 200ms;
+}
+
+input:focus {
+    border-color: #333;
+}
+
+#peliculas {
+    padding: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px;
+    text-align: left;
+}
